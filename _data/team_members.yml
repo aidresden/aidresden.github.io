@@ -1,0 +1,56 @@
+- name: Dr. Silvia Vock
+  photo: SilviaVock.png
+  info: Group leader
+  email: Vock.Silvia@baua.bund.de
+  number_educ: 1
+  education1: PhD Materials Science
+
+- name: Dr. Franziska Wolny
+  photo: WolnyFranziska.png
+  info: Research associate
+  email: Wolny.Franziska@baua.bund.de
+  number_educ: 1
+  education1: PhD experimental physics
+
+- name: Dr. Maryam Alipour,
+  photo: AlipourMaryam.png
+  info: Postdoc
+  email: Alipour.Maryam@baua.bund.de
+  number_educ: 1
+  education1: PhD Applied mathematics 
+
+- name: Dr. Weijia Shao
+  photo: ShaoWeijia.png
+  info: Postdoc
+  email: ShaoWeijia@baua.bund.de
+  number_educ: 1
+  education1: PhD Computer Science
+
+
+- name: Georg Siedel
+  photo: SiedelGeorg.png
+  info: PhD Student
+  email: Siedel.Georg@baua.bund.de
+  number_educ: 1
+  education1: Dipl. Mechanical Engineering
+
+- name: Seyedfakhredin Musavishavazi
+  photo: MusavishavaziSeyedfakhredin.png
+  info: PhD Student
+  email: Musavishavazi.Seyedfakhredin@baua.bund.de
+  number_educ: 1
+  education1: MSc Applied Mathematics
+
+- name: Sven Jacob
+  photo: JacobSven.png
+  info: PhD Student
+  email: Jacob.Sven@baua.bund.de
+  number_educ: 1
+  education1: MSc Mathematics
+
+- name: Muhammad Aziz Hassan
+  photo: HassanMuhammadAziz.png
+  info: Master Student at Technische Universität Ilmenau
+  email: Hassan.MuhammadAziz@baua.bund.de
+  number_educ: 1
+  education1: Bachelors of Science in Electrical Engineering
