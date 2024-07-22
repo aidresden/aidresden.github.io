@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "AI Team - Baua Dresden "
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "AI Team - Baua Dresden "
 sitemap: false
 permalink: /
 ---

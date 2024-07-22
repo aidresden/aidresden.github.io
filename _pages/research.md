@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Research"
+title: "AI Team - Baua Dresden "
 layout: textlay
-excerpt: "Allan Lab -- Research"
+excerpt: "AI Team - Baua Dresden "
 sitemap: false
 permalink: /research/
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "AI Team - Baua Dresden "
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "AI Team - Baua Dresden "
 sitemap: false
 permalink: /publications/
 ---
