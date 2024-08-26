@@ -10,7 +10,7 @@ title: AI Team BAuA Dresden
 email: aidresden@baua.bund.de
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Academic AI-Dresden.
-baseurl: "/research_web.github.io"
+baseurl: ""
 url: "aidresden.github.io"
 
 
