@@ -6,12 +6,27 @@ sitemap: false
 permalink: /
 ---
 
-**News: Our group will move to the University of Munich (LMU)!** During the next two years, we will build up a "Lehrstuhl" (chair) at LMU and we will slowly move our instruments to Munich. We will be looking for PhD students, sub-group leaders, postdocs, engineering/technical stuff, and an administrative assistant. Please contact me if you are interested.
-More details to follow.
+<div id="homepage-content">
+    <!-- Content from the text file will be loaded here -->
+</div>
+
+<script>
+    // JavaScript to load text from the content.txt file
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('{{ "/assets/homepage/content.txt" | relative_url }}')
+            .then(response => response.text())
+            .then(data => {
+                // Access and update the content of the div with id 'homepage-content'
+                document.getElementById('homepage-content').textContent = data;
+            })
+            .catch(error => console.error('Error loading content:', error));
+    });
+</script>
 
 
+<!-- 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
+ 
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -22,7 +37,6 @@ More details to follow.
         <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
-    <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
@@ -53,7 +67,7 @@ More details to follow.
   </a>
 </div>
 
-
+ 
 We are a dynamic research group, at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl) and soon at [LMU](https://www.physik.lmu.de/en/index.html). Our aim is to explore and understand quantum materials, including strange metals, high-temperature superconductors, and quantum critical electron matter. To this end, we develop new quantum sensing and quantum imaging instrumentation to get the key quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the scientific questions we deem most important (see [Research](research)). 
 
 
@@ -76,3 +90,5 @@ We are grateful for funding from Leiden University, [LMU ](https://www.lmu.de) [
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
+
+-->
