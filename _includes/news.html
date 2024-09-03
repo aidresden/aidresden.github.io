@@ -2,10 +2,10 @@
 <div class="well">
 <h4>Recent Publications</h4>
 
-{% for article in site.data.news limit:9 %}
+{% for article in site.data.recent_publications limit:9 %}
 <p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all Recent Publications</a></h4>
+<h4><a href="{{ site.url }}{{ site.baseurl }}/recent_publications.html">... see all Recent Publications</a></h4>
 
     </div>
