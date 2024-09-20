@@ -1,0 +1,15 @@
+overview_description: "This section provides an overview of our research activities and initiatives."
+ongoing_projects:
+  - title: "Project A"
+    description: "Discover the details of Project A, which focuses on..."
+    link: "https://example.com/project-a"
+  - title: "Project B"
+    description: "Learn more about Project B, aimed at..."
+    link: "https://example.com/project-b"
+finished_projects:
+  - title: "Project C"
+    description: "Explore our completed projects and their contributions to the field."
+    link: "https://example.com/finished-projects"
+  - title: "Project D"
+    description: "Explore our completed projects and their contributions to the field."
+    link: "https://example.com/finished-projects"

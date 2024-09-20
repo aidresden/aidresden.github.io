@@ -1,0 +1,127 @@
+---
+layout: default
+---
+
+<style>
+  /* Add some basic CSS to style the list like Google Scholar */
+  .publication-list {
+    list-style: none;
+    padding: 0;
+  }
+  .publication-item {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .publication-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  .publication-authors,
+  .publication-journal {
+    font-style: italic;
+    color: #666;
+  }
+  .publication-date {
+    color: #999;
+    font-size: 14px;
+  }
+  .publication-link {
+    text-decoration: none;
+    color: #1a73e8;
+  }
+  .publication-link:hover {
+    text-decoration: underline;
+  }
+  .publication-description {
+    color: #555;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  /* Add space below the main header */
+  h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #222;
+  }
+
+  /* Style for the search box */
+  .search-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .search-box {
+    flex-grow: 1;
+    max-width: 600px;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px; /* Rounded corners on left side */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .search-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners on right side */
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .search-button:hover {
+    background-color: #165ec9;
+  }
+</style>
+
+<h1>Publications</h1>
+
+<!-- Search box with the button aligned closely to the input -->
+<div class="search-container">
+  <div class="search-box">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search publications..." onkeyup="filterPublications()">
+  </div>
+  <button class="search-button" onclick="filterPublications()">Search</button>
+</div>
+
+<ul class="publication-list" id="publicationList">
+  {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+  {% for publication in sorted_publications %}
+  <li class="publication-item">
+    <span class="publication-title">{{ publication.title }}</span><br>
+    <span class="publication-authors">{{ publication.authors }}</span><br>
+    <span class="publication-journal">{{ publication.journal }}</span>,
+    <span class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</span><br>
+    <div class="publication-description">{{ publication.description }}</div>
+    <a class="publication-link" href="{{ publication.link }}" target="_blank">Read more</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<script>
+  function filterPublications() {
+    const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+    const publications = document.querySelectorAll('.publication-item');
+    
+    publications.forEach(function(publication) {
+      const title = publication.querySelector('.publication-title').innerText.toLowerCase();
+      const authors = publication.querySelector('.publication-authors').innerText.toLowerCase();
+      const journal = publication.querySelector('.publication-journal').innerText.toLowerCase();
+      const description = publication.querySelector('.publication-description').innerText.toLowerCase();
+      
+      if (title.includes(searchQuery) || authors.includes(searchQuery) || journal.includes(searchQuery) || description.includes(searchQuery)) {
+        publication.style.display = '';
+      } else {
+        publication.style.display = 'none';
+      }
+    });
+  }
+</script>

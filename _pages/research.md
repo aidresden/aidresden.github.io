@@ -6,10 +6,22 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
 
-Updating soon -- stay put. (Aug 11 2023)
+# Research Overview
+{% assign research_data = site.data.research_overview %}
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+<p>{{ research_data.overview_description }}</p>
 
+### Ongoing Research Projects
+{% for project in research_data.ongoing_projects %}
+  <h5><strong>{{ project.title }}</strong></h5> <!-- Make title bold -->
+  <p>{{ project.description }}</p>
+  <a href="{{ project.link }}">Learn more about {{ project.title }}</a>
+{% endfor %}
 
+### Finished Research Projects
+{% for project in research_data.finished_projects %}
+  <h5><strong>{{ project.title }}</strong></h5> <!-- Make title bold -->
+  <p>{{ project.description }}</p>
+  <a href="{{ project.link }}">Learn more about {{ project.title }}</a>
+{% endfor %}

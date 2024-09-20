@@ -1,6 +1,6 @@
 ---
 title: "AI Team - Baua Dresden "
-layout: gridlay
+layout: publication
 excerpt: "AI Team - Baua Dresden "
 sitemap: false
 permalink: /publications/
@@ -9,6 +9,12 @@ permalink: /publications/
 
 # Publications
 
+
+
+
+
+
+<!-- 
 ## Dr. Silvia Vock
 {% assign number_printed = 0 %}
 {% for publi in site.data.Silvia_publist %}

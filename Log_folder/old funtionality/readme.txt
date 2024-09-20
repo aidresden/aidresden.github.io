@@ -1,0 +1,3 @@
+Place these files in the data folder if you wish to have a tabular format with functionality that organizes the publications by names on the publication page. Additionally, ensure that the files are added to the data folder for this functionality to work properly.
+
+Furthermore, you will need to uncomment the previous code in the publication.md file and comment out the current code in that file. Also, make sure to comment out the collection section in the _config.yml file.

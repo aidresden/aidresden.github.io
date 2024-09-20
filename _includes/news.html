@@ -1,11 +1,11 @@
-
 <div class="well">
-<h4>Recent Publications</h4>
-
-{% for article in site.data.recent_publications limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
-
-<h4><a href="{{ site.url }}{{ site.baseurl }}/recent_publications.html">... see all Recent Publications</a></h4>
-
-    </div>
+    <h4>Recent Publications</h4>
+  
+    {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+    {% for article in sorted_publications limit: 5 %}
+      <p>{{ article.date | date: "%B %d, %Y" }}<br>{{ article.title }}<br>{{ article.authors }}</p>
+    {% endfor %}
+  
+    <h4><a href="{{ site.url }}{{ site.baseurl }}/recent_publications.html">... see all Recent Publications</a></h4>
+  </div>
+  
