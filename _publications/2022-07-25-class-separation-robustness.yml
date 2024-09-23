@@ -1,0 +1,13 @@
+---
+layout: publication
+title: "Utilizing Class Separation Distance for the Evaluation of Corruption Robustness of Machine Learning
+classifiers"
+authors: "G., Vock, S., Morozov, A., Voß, S."
+journal: "The IJCAI-ECAI-22 Workshop on Artificial Intelligence Safety"
+date: "2022"
+description: "We adapt the idea to measure the minimal class separation for classification datasets, in order to obtain a well interpretable robustness 
+criterion as well as a novel corruption robustness metric. We experiment with training and testing with data augmented with various amounts of noise and 
+discuss a tradeoff between robustness and accuracy."
+link: "https://www.researchgate.net/publication/361562813_Utilizing_Class_Separation_Distance_for_the_Evaluation_of_Corruption_Robustness_of_Machine_Learning_Classifiers"
+
+---

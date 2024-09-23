@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "An Overview of the Research Landscape in the Field of Safe Machine Learning"
+authors: "Siedel, G., Voß, S., Vock, S."
+journal: "Proceedings of the ASME 2021 International Mechanical Engineering Congress and Exposition. Volume 13: Safety Engineering, Risk, and Reliability Analysis; Research Posters"
+date: "2021"
+description: "In order to conduct a systematic overview of research on safe machine learning, we defined a hierarchy of machine learning properties related 
+to safety and visualized search results in the field in literature maps. We categorized methods identified in the field according to the machine learning lifecycle. 
+Finally, we compared the methods to those required to achieve functional safety of traditional software according to ISO 61508."
+link: "https://www.researchgate.net/publication/357701719_An_Overview_of_the_Research_Landscape_in_the_Field_of_Safe_Machine_Learning"
+
+---
