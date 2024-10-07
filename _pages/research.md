@@ -6,7 +6,6 @@ sitemap: false
 permalink: /research/
 ---
 
-
 # Research Overview
 {% assign research_data = site.data.research_overview %}
 
@@ -15,6 +14,7 @@ permalink: /research/
 ### Ongoing Research Projects
 {% for project in research_data.ongoing_projects %}
   <h5><strong>{{ project.title }}</strong></h5> <!-- Make title bold -->
+  <img src="{{ project.image }}" alt="{{ project.title }}" style="max-width:100%; height:auto;"> <!-- Display image -->
   <p>{{ project.description }}</p>
   <a href="{{ project.link }}">Learn more about {{ project.title }}</a>
 {% endfor %}
@@ -22,6 +22,7 @@ permalink: /research/
 ### Finished Research Projects
 {% for project in research_data.finished_projects %}
   <h5><strong>{{ project.title }}</strong></h5> <!-- Make title bold -->
+  <img src="{{ project.image }}" alt="{{ project.title }}" style="max-width:100%; height:auto;"> <!-- Display image -->
   <p>{{ project.description }}</p>
   <a href="{{ project.link }}">Learn more about {{ project.title }}</a>
 {% endfor %}
