@@ -4,8 +4,8 @@ title: "Investigating the Corruption Robustness of Image Classifiers with Random
 authors: "Siedel, G., Shao,W., Vock, S., Morozov, A."
 journal: "Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 2: VISAPP"
 date: "2024"
-description: "We showe, that image classifiers are not only vulnerable to invisible adversarial, but also invisible random noise, and propose an according 
-metric. We also find that training data augmentation with combination of p-norm noise types helps corruption robustness more than common noise injection."
+description: "We show that image classifiers are not only vulnerable to invisible adversarial noise, but also to invisible random noise, and propose a corresponding metric. 
+We also find that training data augmentation with a combination of p-norm noise types contributes more to corruption robustness than common noise injection."
 link: "https://www.researchgate.net/publication/376723060_Investigating_the_Corruption_Robustness_of_Image_Classifiers_with_Random_p-norm_Corruptions"
 
 ---
