@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "Investigating the Corruption Robustness of Image Classifiers with Random p-norm Corruptions"
+authors: "Siedel, G., Gupta, E., Morozov, A."
+journal: "Proceedings of the ASME 2024 International Mechanical Engineering Congress and Exposition (IMECE)"
+date: "2024"
+description: "Adversarial distance is a highly informative measure of robustness that enjoys little attention in the adversarial robustness domain. 
+We built a practical attack algorithm to evaluate this measure more effectively than implementations in the popular Adversarial Robustness Toolbox (ART).
+We also combine this upper-bound estimator with the popular lower-bound estimation method CLEVER, showing CLEVERs inability to calculate a correct lower bound in many cases."
+link: "https://www.researchgate.net/publication/383792352_A_practical_approach_to_evaluating_the_adversarial_distance_for_machine_learning_classifiers"
+
+---
