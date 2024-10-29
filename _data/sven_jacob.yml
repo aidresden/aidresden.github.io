@@ -1,0 +1,15 @@
+ongoing_projects:
+  - title: "Condition monitoring for industrial milling machines"
+    description: |
+      In collaboration with the Fraunhofer IPA, we collect real world data from table milling machines. Each process is described through several internal- and external variables being captured with the internal control system and sensors.
+      Table milling machines are widely used industrial machines that are characterized by a high degree of manual work and fast rotating tools. 
+      The danger of unintentional synchronized milling can occur which results in a so called kick back event. The goal of this project is the automated and reliable prediction of sudden kick back events to mitigate the risk for workers and ensure safe deployment.
+    link: "tba"
+
+  - title: "Robotic time series in for safety critical applications in industrial environments"
+    description: |
+      In this project, we collect industrial time series for pick & place operations and milling applications. We gather the data through internal and external sensors and simulate malfunctions. Those safety critical events include tool wear, wrong process acceleration, and fault in components for picking objects.
+      The goal of this project is the reliable detection of safety critical events. Furthermore, we aim for a realistic setup and experimental design for industrial time series in different enviornments and various malfunctions.
+    link: "tba"
+
+finished_projects:
