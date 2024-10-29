@@ -3,16 +3,23 @@ layout: default
 ---
 
 <style>
+  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+
+  html {
+    font-family: 'Source Sans Pro', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
   /* Add some basic CSS to style the list like Google Scholar */
   .publication-list {
     list-style: none;
     padding: 0;
     max-width: 700px;  /* Restricting the width for better readability */
-    margin: 0;    /* Centering the content */
+    margin: 20px 0 0 0; /* Add margin to create space below the search box */
   }
   .publication-item {
     margin-bottom: 20px;
-    font-family: Arial, sans-serif;
   }
   .publication-title {
     font-weight: bold;
@@ -44,8 +51,7 @@ layout: default
   /* Add space below the main header */
   h1 {
     margin-bottom: 30px;
-    font-size: 28px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 41px;
     color: #222;
   }
 
