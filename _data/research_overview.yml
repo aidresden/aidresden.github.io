@@ -1,31 +1,16 @@
-overview_description: "This section provides an overview of our research activities and initiatives."
-ongoing_projects:
-  - title: "Generation of safety-relevant industrial data for AI applications - construction site person detection"
-    description: |
-      In this project, together with the Technical University of Dresden and the Construction Future Lab (https://cflab.de/), the safety of workers on construction sites is in focus. 
-      Assistance systems can be utilized for person detection in order to prevent physical harm of machinery colliding with workers on such sites. 
-      Therefore, a dataset of persons on real construction sites was created. 
-      With this dataset, researchers and developers can investigate the reliability of object detection models in such a scenario on realistic data and derive conclusions on particularly challenging scenarios, 
-      robustness challenges as well as parametrization choices.  
-    link: "tba"
-    image: "/assets/research_img/project1.jpg"  # Add image path
+overview_description: >
+  The research of the AI team is conducted along a general ML lifecycle-model. It is state of the art to develop and assess safety-critical software components with respect to specific requirements along the software lifecycle (see eg. ISO 61508). Accordingly, a comprehensive risk assessment of machinery containing ML in safety-critical functions will require quantitative and qualitative metrics for each ML-specific life-cycle phase and for relevant ML properties. The team research focuses on selected aspects such as robustness, explainability, uncertainty assessment, and concept drift.
 
+overview_image: "/assets/research_img/research_overview.png"  # Add image path
 
-  - title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
-    description: |
-      In this project, challenges for the risk analysis of complex industrial systems were investigated. 
-      A major workpackage focussed on those challenges posed by the integration of AI modules into industrial machinery. 
-      For industrial use cases in particular, important safety related properties of AI were identified, with the main focus lying on the robustness of such systems. 
-      Robustness describes the stability of an AI model's outputs when confronted with variations in its input and is a fundamental pillar of the model's dependability.
-    link: "https://www.baua.de/DE/Forschung/Forschungsprojekte/f2497"
-    image: "/assets/research_img/project2.jpg"  # Add image path
+data_projects:
+  - id: "dp1"
+    title: "Data Project ABID"
 
+robustness_projects:
+  - id: "rp1"
+    title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
 
-finished_projects:
-  - title: "Project C"
-    description: "Explore our completed projects and their contributions to the field."
-    link: "https://example.com/finished-projects"
-    
-  - title: "Project D"
-    description: "Explore our completed projects and their contributions to the field."
-    link: "https://example.com/finished-projects"
+sustainability_projects:
+  - id: "sp1"
+    title: "Project C"

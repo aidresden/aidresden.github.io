@@ -1,6 +1,76 @@
 ---
 layout: default
+title: "Research Projects"
 ---
-<div id="research" class="col-sm-12">
-  {{ content }}
+
+<h2>Research Projects</h2>
+
+<!-- Display Research Overview Description and Image -->
+<p>{{ site.data.research_overview.overview_description }}</p>
+<img src="{{ site.data.research_overview.overview_image }}" alt="Research Overview Image" style="max-width:100%; height:auto; margin-bottom: 20px;">
+
+<!-- Data Projects ABID Dropdown -->
+<div class="dropdown-section">
+  <button onclick="toggleDropdown('dataProjects')">Data Projects</button>
+  <div id="dataProjects" class="dropdown-content" style="display: none;">
+    {% for project in site.data.research_overview.data_projects %}
+    <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
+    {% endfor %}
+  </div>
 </div>
+
+<!-- Robustness Projects Dropdown -->
+<div class="dropdown-section">
+  <button onclick="toggleDropdown('robustnessProjects')">Robustness Projects</button>
+  <div id="robustnessProjects" class="dropdown-content" style="display: none;">
+    {% for project in site.data.research_overview.robustness_projects %}
+      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Sustainability Projects Dropdown -->
+<div class="dropdown-section">
+  <button onclick="toggleDropdown('sustainabilityProjects')">Sustainability Projects</button>
+  <div id="sustainabilityProjects" class="dropdown-content" style="display: none;">
+    {% for project in site.data.research_overview.sustainability_projects %}
+      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
+    {% endfor %}
+  </div>
+</div>
+
+<!-- JavaScript for toggle functionality -->
+<script>
+function toggleDropdown(id) {
+  const content = document.getElementById(id);
+  content.style.display = content.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
+<!-- CSS for dropdown styling -->
+<style>
+.dropdown-section button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-section button:hover {
+  background-color: #ddd;
+}
+.dropdown-content {
+  margin-left: 20px;
+}
+.dropdown-content h5 a {
+  color: #0073e6;
+  text-decoration: none;
+}
+.dropdown-content h5 a:hover {
+  text-decoration: underline;
+}
+</style>
