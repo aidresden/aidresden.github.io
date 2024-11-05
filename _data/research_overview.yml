@@ -1,7 +1,7 @@
 overview_description: >
   The research of the AI team is conducted along a general ML lifecycle-model. It is state of the art to develop and assess safety-critical software components with respect to specific requirements along the software lifecycle (see eg. ISO 61508). Accordingly, a comprehensive risk assessment of machinery containing ML in safety-critical functions will require quantitative and qualitative metrics for each ML-specific life-cycle phase and for relevant ML properties. The team research focuses on selected aspects such as robustness, explainability, uncertainty assessment, and concept drift.
 
-overview_image: "/assets/research_img/research_overview.png"  # Add image path
+overview_image: "/assets/research_img/research_overview.png"
 
 data_projects:
   - id: "dp1"
