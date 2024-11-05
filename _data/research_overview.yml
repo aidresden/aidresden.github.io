@@ -4,23 +4,36 @@ overview_description: >
 overview_image: "/assets/research_img/research_overview.jpg"
 
 data_projects:
+
   - id: "dp1"
     title: "Data Project ABID"
 
-robustness_projects:
-  - id: "rp1"
+  - id: "dp2"
     title: "Generation of safety-relevant industrial data for AI applications - construction site person detection"
 
-  - id: "rp2"
-    title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
-  
-  - id: "rp3"
+  - id: "dp3"
     title: "Condition monitoring for industrial milling machines"
   
-  - id: "rp4"
+  - id: "dp4"
     title: "Robotic time series in for safety critical applications in industrial environments"
 
+robustness_projects:
 
-sustainability_projects:
-  - id: "sp1"
+  - id: "rp1"
+    title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
+  
+uncertainty_quantification_projects:
+  - id: "uqp1"
+    title: "Project C"
+
+concept_drift_detection_projects:
+  - id: "cddp1"
+    title: "Project C"
+
+adversarial_robustness_projects:
+  - id: "arp1"
+    title: "Project C"
+
+explainability_explainable_gnns_projects:
+  - id: "egp1"
     title: "Project C"
