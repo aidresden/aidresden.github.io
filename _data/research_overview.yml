@@ -9,7 +9,17 @@ data_projects:
 
 robustness_projects:
   - id: "rp1"
+    title: "Generation of safety-relevant industrial data for AI applications - construction site person detection"
+
+  - id: "rp2"
     title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
+  
+  - id: "rp3"
+    title: "Condition monitoring for industrial milling machines"
+  
+  - id: "rp4"
+    title: "Robotic time series in for safety critical applications in industrial environments"
+
 
 sustainability_projects:
   - id: "sp1"
