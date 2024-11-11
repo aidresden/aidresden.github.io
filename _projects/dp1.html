@@ -1,0 +1,106 @@
+---
+layout: default
+title: "Data Project ABID"
+---
+
+<h2>Data Project ABID</h2>
+
+<!-- Image Slider Section -->
+<div id="slider" class="slider-container">
+    <div class="slide">
+        <img src="/assets/research_img/dp1.jpg" alt="Data Project ABID Slide 1" style="max-width:100%; height:auto;">
+    </div>
+    <div class="slide">
+        <img src="/assets/research_img/dp1_2.jpg" alt="Data Project ABID Slide 2" style="max-width:100%; height:auto;">
+    </div>
+
+    <!-- Next and Previous Buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- JavaScript for the Slider -->
+<script>
+let slideIndex = 0;
+showSlides(slideIndex); // Show the first slide
+
+// Function to move between slides
+function plusSlides(n) {
+    showSlides(slideIndex += n); // Update the slide index and call showSlides()
+}
+
+// Function to show slides based on slideIndex
+function showSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+    
+    // Loop back to the first slide if at the end or go to the last slide if at the start
+    if (n >= slides.length) { slideIndex = 0; }
+    if (n < 0) { slideIndex = slides.length - 1; }
+
+    // Hide all slides initially
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; // Hide each slide
+    }
+    
+    // Show the current slide
+    slides[slideIndex].style.display = "block"; // Show the selected slide
+}
+</script>
+
+<!-- Styling for the Slider -->
+<style>
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden; /* Ensure images are contained within the slider */
+}
+
+.slide {
+    display: none; /* Hide all slides initially */
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Optional: Add fade-in effect to transition between slides smoothly */
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+</style>
+
+<p>Publicly available, real-world datasets of human-robot interactions (HRIs) are scarce, as the creation of safety-critical scenarios is a challenging process and often involves the use of proprietary methods. This data project proposes a pipeline and methods to create a labelled dataset using an image-grade 3D LiDAR sensor and an RGB-D camera, as well as the dataset ABiD, combining relevant data for training and evaluating AI models that monitor and evaluate HRI scenarios from a safety perspective. This dataset is automatically labeled with 3D bounding boxes of individual human limbs and joints of the robot. Each bounding box is also labeled with a risk index, derived from a risk assessment process. The project was conducted by Proximity Robotics and the group of Jun.-Prof. Andrey Morozov at the Institute of Industrial Automation and Software Engineering at the University of Stuttgart.</p>
+
+<h3>Links</h3>
+<ul>
+    <li><a href="GIT_LINK_HERE" target="_blank">Dataset Repository</a></li>
+    <li><a href="PUBLICATION_LINK_HERE" target="_blank">Publication</a></li>
+    <li><a href="PROJECT_LINK_HERE" target="_blank">Project Details</a></li>
+</ul>

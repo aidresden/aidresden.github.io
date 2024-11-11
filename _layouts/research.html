@@ -14,10 +14,11 @@ title: "Research Projects"
   <button onclick="toggleDropdown('dataProjects')">Data Projects</button>
   <div id="dataProjects" class="dropdown-content" style="display: none;">
     {% for project in site.data.research_overview.data_projects %}
-    <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
+      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
     {% endfor %}
   </div>
 </div>
+
 
 <!-- Robustness Projects Dropdown -->
 <div class="dropdown-section">
@@ -42,7 +43,7 @@ title: "Research Projects"
 <div class="dropdown-section">
   <button onclick="toggleDropdown('Conceptdriftdetection')">Concept drift detection</button>
   <div id="Conceptdriftdetection" class="dropdown-content" style="display: none;">
-    {% for project in site.data.research_overview.concept_drift_detection_projects: %}
+    {% for project in site.data.research_overview.concept_drift_detection_projects %}
       <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
     {% endfor %}
   </div>
