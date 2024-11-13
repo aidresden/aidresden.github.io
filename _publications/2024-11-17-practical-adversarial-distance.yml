@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Investigating the Corruption Robustness of Image Classifiers with Random p-norm Corruptions"
+title: "A practical approach to evaluating the adversarial distance for machine learning classifiers"
 authors: "Siedel, G., Gupta, E., Morozov, A."
 journal: "Proceedings of the ASME 2024 International Mechanical Engineering Congress and Exposition (IMECE)"
 date: "2024-11-17"
