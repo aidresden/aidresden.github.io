@@ -21,6 +21,9 @@ robustness_projects:
 
   - id: "rp1"
     title: "Corruption Robustness"
+
+  - id: "rp2"
+    title: "Adversarial Robustness"
   
 uncertainty_quantification_projects:
   - id: "uqp1"
@@ -28,10 +31,6 @@ uncertainty_quantification_projects:
 
 concept_drift_detection_projects:
   - id: "cddp1"
-    title: "Project C"
-
-adversarial_robustness_projects:
-  - id: "arp1"
     title: "Project C"
 
 explainability_explainable_gnns_projects:
