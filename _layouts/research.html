@@ -50,15 +50,6 @@ title: "Research Projects"
 </div>
 
 <div class="dropdown-section">
-  <button onclick="toggleDropdown('AdversarialRobustness')">Adversarial Robustness</button>
-  <div id="AdversarialRobustness" class="dropdown-content" style="display: none;">
-    {% for project in site.data.research_overview.adversarial_robustness_projects %}
-      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
-    {% endfor %}
-  </div>
-</div>
-
-<div class="dropdown-section">
   <button onclick="toggleDropdown('ExplainabilityExplainableGNNs')">Explainability/Explainable GNNs</button>
   <div id="ExplainabilityExplainableGNNs" class="dropdown-content" style="display: none;">
     {% for project in site.data.research_overview.explainability_explainable_gnns_projects %}
