@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Project C"
+title: "Adversarial Robustness"
 ---
 
-<h2>Project C</h2>
-<img src="/assets/research_img/project1.jpg" alt="Project C" style="max-width:100%; height:auto;">
+<h2>Adversarial Robustness</h2>
+<img src="/assets/research_img/project1.jpg" alt="Adversarial Robustness" style="max-width:100%; height:auto;">
 <p>Add project data.</p>
 
 <h3>Links</h3>
