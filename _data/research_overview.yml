@@ -9,7 +9,7 @@ data_projects:
     title: "Data Project ABID"
 
   - id: "dp2"
-    title: "Generation of safety-relevant industrial data for AI applications - construction site person detection"
+    title: "Person Detection on Construction Sites"
 
   - id: "dp3"
     title: "Condition monitoring for industrial milling machines"
@@ -20,7 +20,7 @@ data_projects:
 robustness_projects:
 
   - id: "rp1"
-    title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
+    title: "Corruption Robustness"
   
 uncertainty_quantification_projects:
   - id: "uqp1"
