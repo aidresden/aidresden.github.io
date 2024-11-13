@@ -9,7 +9,7 @@ ongoing_projects:
       A unique image dataset of individuals on active construction sites has been developed to evaluate the detection capabilities of driver assistance systems that aim to prevent collisions with workers on such sites.
       By leveraging this dataset, researchers and developers can assess the effectiveness of object/person detection models in real-world conditions, gaining insights into challenging scenarios, robustness 
       requirements, and optimal parameter settings for these safety systems.
-    link: "tba"
+    link: "https://github.com/aidresden/person_detection_construction_sites"
 
   - title: "Risk assessment of a cyber-physical systems model for Industrie 4.0 applications - workpackage AI-safety"
     description: |
