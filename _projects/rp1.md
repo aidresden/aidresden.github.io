@@ -4,9 +4,10 @@ title: "Corruption Robustness"
 ---
 
 <h2>Corruption Robustness</h2>
-<img src="/assets/research_img/rp1_hendrycks_corruptions.PNG" alt="Corruption Robustness" style="max-width:100%; height:auto;">
+
 <p>Corruption Robustness, or statistical robustness, describes the ability of a model to cope with randomly distributed changes in its input data. Unlike adversarial robustness, the changes are not assumed to be worst-case. 
-Corruption robustness is primarily concerned with real-world data errors, such as camera or sensor corruption in image data, but can theoretically be extended to any type or distribution of errors. Corruption robustness evaluation typically involves tests on corrupted benchmark datasets, such as the popular corrupted variants of the image classification datasets CIFAR-C and ImageNet-C (see image above, from reference [1]). 
+Corruption robustness is primarily concerned with real-world data errors, such as camera or sensor corruption in image data, but can theoretically be extended to any type or distribution of errors. Corruption robustness evaluation typically involves tests on corrupted benchmark datasets, such as the popular corrupted variants of the image classification datasets CIFAR-C and ImageNet-C (see image below, from reference [1]). 
+<img src="/assets/research_img/rp1_hendrycks_corruptions.PNG" alt="Corruption Robustness" style="max-width:80%; height:auto;">
     
     Research shows that vision models in particular suffer significant performance degradation when confronted with such real-world corruptions. One research question is therefore how to train models that are as robust as possible against all known types of random corruption. Approaches to solving this research question include model architecture and optimisation choices, and, prominently, training data augmentation. Even state-of-the-art training strategies have not yet closed the gap between model performance on clean and corrupted data. Many approaches achieve corruption robustness at the expense of accuracy on clean data. The holy grail of a training strategy is therefore to reliably improve corruption robustness and accuracy together on clean test data. 
     Below: Robust image model training pipeline with various data augmentation approaches
