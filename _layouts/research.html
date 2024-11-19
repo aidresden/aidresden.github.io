@@ -3,22 +3,11 @@ layout: default
 title: "Research Projects"
 ---
 
-<h2>Research Projects</h2>
+<h2>Research</h2>
 
 <!-- Display Research Overview Description and Image -->
 <p>{{ site.data.research_overview.overview_description }}</p>
 <img src="{{ site.data.research_overview.overview_image }}" alt="Research Overview Image" style="max-width:100%; height:auto; margin-bottom: 20px;">
-
-<!-- Data Projects ABID Dropdown -->
-<div class="dropdown-section">
-  <button onclick="toggleDropdown('dataProjects')">Data Projects</button>
-  <div id="dataProjects" class="dropdown-content" style="display: none;">
-    {% for project in site.data.research_overview.data_projects %}
-      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
-    {% endfor %}
-  </div>
-</div>
-
 
 <!-- Robustness Projects Dropdown -->
 <div class="dropdown-section">
@@ -73,7 +62,8 @@ function toggleDropdown(id) {
   width: 100%;
   padding: 10px;
   text-align: left;
-  border: none;
+  border: 1px solid #ccc; /* Light boundary color */
+  border-radius: 5px;
   background-color: #f1f1f1;
   font-size: 1.2em;
   cursor: pointer;

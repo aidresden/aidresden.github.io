@@ -1,24 +1,17 @@
 overview_description: >
   The research of the AI team is conducted along a general ML lifecycle-model. It is state of the art to develop and assess safety-critical software components with respect to specific requirements along the software lifecycle (see eg. ISO 61508). Accordingly, a comprehensive risk assessment of machinery containing ML in safety-critical functions will require quantitative and qualitative metrics for each ML-specific life-cycle phase and for relevant ML properties. The team research focuses on selected aspects such as robustness, explainability, uncertainty assessment, and concept drift.
 
-overview_image: "/assets/research_img/research_overview.jpg"
+overview_image: "/assets/data_project/project1.jpg"
 
-robustness_projects:
+data_projects:
+  - id: "dp1"
+    title: "Data Project ABID"
 
-  - id: "rp1"
-    title: "Corruption Robustness"
+  - id: "dp2"
+    title: "Person detection on construction sites"
 
-  - id: "rp2"
-    title: "Adversarial Robustness"
+  - id: "dp3"
+    title: "Condition monitoring for industrial milling machines"
   
-uncertainty_quantification_projects:
-  - id: "uqp1"
-    title: "Project C"
-
-concept_drift_detection_projects:
-  - id: "cddp1"
-    title: "Project C"
-
-explainability_explainable_gnns_projects:
-  - id: "egp1"
-    title: "Project C"
+  - id: "dp4"
+    title: "Robotic time series for safety critical applications in industrial environments"

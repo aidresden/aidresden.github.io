@@ -1,0 +1,50 @@
+---
+layout: default
+title: "data_projects"
+---
+
+<h2>Data Projects</h2>
+
+<!-- Display Research Overview Description and Image -->
+<p>{{ site.data.data_project.overview_description }}</p>
+<img src="{{ site.data.data_project.overview_image }}" alt="Data Project Overview Image" style="max-width:100%; height:auto; margin-bottom: 20px;">
+
+<div class="button-section">
+
+  <!-- Loop through the data projects -->
+  {% for project in site.data.data_project.data_projects %}
+    <button class="project-button" onclick="location.href='/projects/{{ project.id }}'">
+      {{ project.title }}
+    </button>
+  {% endfor %}
+</div>
+
+<!-- CSS for button styling -->
+<style>
+.button-section {
+  margin-top: 20px;
+}
+
+.section-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.project-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc; /* Light boundary color */
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+}
+
+.project-button:hover {
+    background-color: #ddd;
+}
+</style>
