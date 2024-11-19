@@ -19,7 +19,6 @@ Corruption robustness is primarily concerned with real-world data errors, such a
     Our References:
     <li><a href="https://www.researchgate.net/publication/361562813_Utilizing_Class_Separation_Distance_for_the_Evaluation_of_Corruption_Robustness_of_Machine_Learning_Classifiers" target="_blank">Utilizing Class Separation Distance for the Evaluation of         Corruption Robustness of Machine Learning classifiers</a></li>
     <li><a href="https://www.researchgate.net/publication/376723060_Investigating_the_Corruption_Robustness_of_Image_Classifiers_with_Random_p-norm_Corruptions" target="_blank">Investigating the Corruption Robustness of Image Classifiers with Random p-norm Corruptions</a></li>
-    
     Popular Literature:
     <li><a href="https://github.com/hendrycks/robustness" target="_blank">Benchmarking Neural Network Robustness to Common Corruptions and Perturbations</a></li>
     <li><a href="https://proceedings.neurips.cc/paper/2021/file/1d49780520898fe37f0cd6b41c5311bf-Paper.pdf" target="_blank">On interaction between augmentations and corruptions in natural corruption robustness</a></li>
