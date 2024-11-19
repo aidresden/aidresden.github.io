@@ -9,7 +9,7 @@ title: "Research Projects"
 <p>{{ site.data.research_overview.overview_description }}</p>
 <img src="{{ site.data.research_overview.overview_image }}" alt="Research Overview Image" style="max-width:100%; height:auto; margin-bottom: 20px;">
 
-<!-- Robustness Projects Dropdown -->
+<!-- Robustness Projects -->
 <div class="dropdown-section">
   <button onclick="toggleDropdown('robustnessProjects')">Robustness</button>
   <div id="robustnessProjects" class="dropdown-content" style="display: none;">
@@ -19,7 +19,18 @@ title: "Research Projects"
   </div>
 </div>
 
-<!-- Uncertainty Quantification Projects Dropdown -->
+<!-- Explainability Projects -->
+
+<div class="dropdown-section">
+  <button onclick="toggleDropdown('ExplainabilityExplainableGNNs')">Explainability/Explainable GNNs</button>
+  <div id="ExplainabilityExplainableGNNs" class="dropdown-content" style="display: none;">
+    {% for project in site.data.research_overview.explainability_explainable_gnns_projects %}
+      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Uncertainty Quantification Projects -->
 <div class="dropdown-section">
   <button onclick="toggleDropdown('UncertaintyQuantification')">Uncertainty Quantification</button>
   <div id="UncertaintyQuantification" class="dropdown-content" style="display: none;">
@@ -29,19 +40,12 @@ title: "Research Projects"
   </div>
 </div>
 
+<!-- Conceptdriftdetection Projects -->
+
 <div class="dropdown-section">
   <button onclick="toggleDropdown('Conceptdriftdetection')">Concept drift detection</button>
   <div id="Conceptdriftdetection" class="dropdown-content" style="display: none;">
     {% for project in site.data.research_overview.concept_drift_detection_projects %}
-      <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
-    {% endfor %}
-  </div>
-</div>
-
-<div class="dropdown-section">
-  <button onclick="toggleDropdown('ExplainabilityExplainableGNNs')">Explainability/Explainable GNNs</button>
-  <div id="ExplainabilityExplainableGNNs" class="dropdown-content" style="display: none;">
-    {% for project in site.data.research_overview.explainability_explainable_gnns_projects %}
       <h5><a href="/projects/{{ project.id }}">{{ project.title }}</a></h5> <!-- Link to project detail page -->
     {% endfor %}
   </div>
