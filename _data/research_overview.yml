@@ -11,14 +11,15 @@ robustness_projects:
   - id: "rp2"
     title: "Adversarial Robustness"
   
+explainability_explainable_gnns_projects:
+  - id: "egp1"
+    title: "Explainable Machine Learning"
+
 uncertainty_quantification_projects:
   - id: "uqp1"
-    title: "Project C"
+    title: "Uncertainty Quantification"
 
 concept_drift_detection_projects:
   - id: "cddp1"
     title: "Project C"
 
-explainability_explainable_gnns_projects:
-  - id: "egp1"
-    title: "Project C"
