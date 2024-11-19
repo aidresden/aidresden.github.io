@@ -4,7 +4,7 @@ title: "Corruption Robustness"
 ---
 
 <h2>Corruption Robustness</h2>
-<img src="/assets/research_img/rp1_hendrycks_corruptions.png" alt="Corruption Robustness" style="max-width:100%; height:auto;">
+<img src="/assets/research_img/rp1_hendrycks_corruptions.PNG" alt="Corruption Robustness" style="max-width:100%; height:auto;">
 <p>Corruption Robustness, or statistical robustness, describes the ability of a model to cope with randomly distributed changes in its input data. Unlike adversarial robustness, the changes are not assumed to be worst-case. 
 Corruption robustness is primarily concerned with real-world data errors, such as camera or sensor corruption in image data, but can theoretically be extended to any type or distribution of errors. Corruption robustness evaluation typically involves tests on corrupted benchmark datasets, such as the popular corrupted variants of the image classification datasets CIFAR-C and ImageNet-C (see image above, from reference [1]). 
     
