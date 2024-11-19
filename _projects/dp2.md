@@ -15,3 +15,7 @@ requirements, and optimal parameter settings for these safety systems.</p>
     <li><a href="https://github.com/aidresden/person_detection_construction_sites" target="_blank">Publication</a></li>
     <li><a href="https://github.com/aidresden/person_detection_construction_sites" target="_blank">Project Details</a></li>
 </ul>
+<style>
+body, p, h2 {
+    text-align: justify;
+}

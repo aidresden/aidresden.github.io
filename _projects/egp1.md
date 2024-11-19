@@ -35,3 +35,7 @@ title: "Explainable Machine Learning"
     <li><a href="PUBLICATION_LINK_HERE" target="_blank">Publication</a></li>
     <li><a href="PROJECT_LINK_HERE" target="_blank">Project Details</a></li>
 </ul>
+<style>
+body, p, h2 {
+    text-align: justify;
+}

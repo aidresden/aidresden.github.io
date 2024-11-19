@@ -20,7 +20,6 @@ title: "Research Projects"
 </div>
 
 <!-- Explainability Projects -->
-
 <div class="dropdown-section">
   <button onclick="toggleDropdown('ExplainabilityExplainableGNNs')">Explainability/Explainable GNNs</button>
   <div id="ExplainabilityExplainableGNNs" class="dropdown-content" style="display: none;">
@@ -41,7 +40,6 @@ title: "Research Projects"
 </div>
 
 <!-- Conceptdriftdetection Projects -->
-
 <div class="dropdown-section">
   <button onclick="toggleDropdown('Conceptdriftdetection')">Concept drift detection</button>
   <div id="Conceptdriftdetection" class="dropdown-content" style="display: none;">
@@ -59,8 +57,12 @@ function toggleDropdown(id) {
 }
 </script>
 
-<!-- CSS for dropdown styling -->
+<!-- CSS for global text justification -->
 <style>
+body, p, h5 {
+  text-align: justify;
+}
+
 .dropdown-section button {
   display: block;
   width: 100%;
@@ -73,16 +75,20 @@ function toggleDropdown(id) {
   cursor: pointer;
   outline: none;
 }
+
 .dropdown-section button:hover {
   background-color: #ddd;
 }
+
 .dropdown-content {
   margin-left: 20px;
 }
+
 .dropdown-content h5 a {
   color: #0073e6;
   text-decoration: none;
 }
+
 .dropdown-content h5 a:hover {
   text-decoration: underline;
 }

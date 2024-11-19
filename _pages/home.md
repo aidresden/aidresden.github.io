@@ -6,6 +6,12 @@ sitemap: false
 permalink: /
 ---
 
+<style>
+    #homepage-content {
+        text-align: justify;
+    }
+</style>
+
 <div id="homepage-content">
     <!-- Content from the text file will be loaded here -->
 </div>
@@ -22,6 +28,7 @@ permalink: /
             .catch(error => console.error('Error loading content:', error));
     });
 </script>
+
 
 
 <!-- 
