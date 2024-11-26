@@ -7,10 +7,6 @@ title: "Corruption Robustness"
 
 <p style="text-align: justify; margin-top: 30px;">Corruption Robustness, or statistical robustness, describes the ability of a model to cope with randomly distributed changes in its input data. Unlike adversarial robustness, the changes are not assumed to be worst-case. Corruption robustness is primarily concerned with real-world data errors, such as camera or sensor corruption in image data, but can theoretically be extended to any type or distribution of errors. Corruption robustness evaluation typically involves tests on corrupted benchmark datasets, such as the popular corrupted variants of the image classification datasets CIFAR-C and ImageNet-C.</p>
 
-<a href="https://github.com/hendrycks/robustness" target="_blank" style="display: inline-block; margin: 10px 0;">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Link" style="width:20px; height:20px; vertical-align:middle;"> Git Repository
-</a>
-
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
     <img src="/assets/research_img/rp1_hendrycks_corruptions.PNG" alt="Corruption Robustness" style="width:100%; max-width:800px; height:auto;">
     <p style="font-size:14px; color:gray; margin: 5px 0;">Figure 1: Examples of corrupted images from CIFAR-C and ImageNet-C datasets, showcasing common real-world noise and distortions.</p>
@@ -18,20 +14,12 @@ title: "Corruption Robustness"
 
 <p style="text-align: justify; margin-top: 20px;">Research shows that vision models in particular suffer significant performance degradation when confronted with such real-world corruptions. One research question is therefore how to train models that are as robust as possible against all known types of random corruption. Approaches to solving this research question include model architecture and optimisation choices, and, prominently, training data augmentation. Even state-of-the-art training strategies have not yet closed the gap between model performance on clean and corrupted data. Many approaches achieve corruption robustness at the expense of accuracy on clean data. The holy grail of a training strategy is therefore to reliably improve corruption robustness and accuracy together on clean test data.</p>
 
-<a href="https://github.com/hendrycks/robustness" target="_blank" style="display: inline-block; margin: 10px 0;">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Link" style="width:20px; height:20px; vertical-align:middle;"> Git Repository
-</a>
-
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
     <img src="/assets/research_img/rp1_data_augmentation.png" alt="Data Augmentation for Corruption Robustness" style="width:100%; max-width:800px; height:auto;">
     <p style="font-size:14px; color:gray; margin: 5px 0;">Figure 2: Robust image model training pipeline, featuring various data augmentation techniques to improve corruption robustness.</p>
 </div>
 
 <p style="text-align: justify; margin-top: 20px;">Another research question is how to comprehensively and expressively evaluate corruption robustness. The goal is to achieve corruption robustness against the entire relevant set of possible corruptions and for meaningful severities. Therefore, different realistic and challenging corruption types and meaningful corruption severities need to be developed and evaluated. The aim of this line of research is to produce reliable and interpretable measures of corruption robustness for given models.</p>
-
-<a href="https://github.com/hendrycks/robustness" target="_blank" style="display: inline-block; margin: 10px 0;">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Link" style="width:20px; height:20px; vertical-align:middle;"> Git Repository
-</a>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
     <img src="/assets/research_img/rp1_statistical_robustness_testing.png" alt="Statistical Robustness Testing" style="width:100%; max-width:800px; height:auto;">
