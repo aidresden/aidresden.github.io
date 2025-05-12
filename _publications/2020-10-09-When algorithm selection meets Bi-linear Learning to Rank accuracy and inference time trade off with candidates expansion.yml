@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "When algorithm selection meets Bi-linear Learning to Rank: accuracy and inference time trade off with candidates expansion"
+authors: "Jing Yuan, Christian Geissler, Weijia Shao, Andreas Lommatzsch and Brijnesh Jain "
+date: "2020-10-09"
+description: "Algorithm selection (AS) tasks are dedicated to find the optimal algorithm for an unseen problem instance. With the knowledge of problem instances’ 
+meta-features and algorithms’ landmark performances, Machine Learning (ML) approaches are applied to solve AS problems"
+link: "https://link.springer.com/article/10.1007/s41060-020-00229-x"
+
+---

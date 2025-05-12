@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "Optimistic optimisation of composite objective with exponentiated update"
+authors: "Weijia Shao, Fikret Sivrikaya and Sahin Albayrak "
+date: "2022-08-22"
+description: "This paper proposes a new family of algorithms for the online optimisation of composite objectives. 
+The algorithms can be interpreted as the combination of the exponentiated gradient and p-norm algorithm."
+link: "https://link.springer.com/article/10.1007/s10994-022-06229-1"
+
+---

@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "KrakenBox: Deep Learning-Based Error Detector for Industrial Cyber-Physical Systems"
+authors: "Silvia Vock, Bjoern Kasper, Stefan Voss"
+date: "2022-01-25"
+description: "Online error detection helps to reduce the risk of failure of safety-critical systems. However, due to the increasing complexity of modern 
+Cyber-Physical Systems and the sophisticated interaction of their heterogeneous components, it becomes harder to apply traditional error detection methods "
+link: "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2021/85697/V013T14A025/1133312"
+
+---

@@ -1,0 +1,11 @@
+---
+layout: publication
+title: "Adaptive Online Learning for the Autoregressive Integrated Moving Average Models"
+authors: "Weijia Shao,Lukas Friedemann Radke,Fikret Sivrikaya and Sahin Albayrak "
+date: "2021-06-29"
+description: "This paper addresses the problem of predicting time series data using the autoregressive integrated moving average (ARIMA) 
+model in an online manner. Existing algorithms require model selection, which is time consuming and unsuitable for the setting of online
+learning."
+link: "https://www.mdpi.com/2227-7390/9/13/1523"
+
+---

@@ -1,0 +1,13 @@
+---
+layout: publication
+title: "Industry 4.0: Emerging challenges for dependability analysis"
+authors: "Andrey Morozov, Silvia Vock, Kai Ding, Stefan Voss, Klaus Janschek"
+journal: "Industry 4.0"
+date: "2019-01-01"
+description: "Industry 4.0 brings new challenges for the quantitative methods for the evaluation of system dependability properties such as reliability 
+and safety. In this paper, we recall relevant Industry 4.0 and dependability concepts and provide an overview of available reliability and safety metrics 
+and evaluation methods including event trees, fault trees, reliability block diagrams, and more sophisticated dynamic methods based on Markov chain models. 
+The special focus is on the model-based application of these methods."
+link: "https://stumejournals.com/journals/i4/2019/5/206"
+
+---

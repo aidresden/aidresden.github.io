@@ -1,0 +1,11 @@
+---
+layout: publication
+title: "An Overview of the Research Landscape in the Field of Safe Machine Learning"
+authors: "Georg Siedel, Stefan Voß, Silvia Vock"
+date: "2022-01-25"
+description: "The applicability of ML components in safety-critical systems will significantly depend on whether 
+it will be possible to provide a comprehensive proof of their safety. Three research questions (RQ) are answered 
+in order to provide a starting point for future activities towards the risk assessment of safety-critical systems containing ML components."
+link: "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2021/85697/V013T14A045/1133293"
+
+---
