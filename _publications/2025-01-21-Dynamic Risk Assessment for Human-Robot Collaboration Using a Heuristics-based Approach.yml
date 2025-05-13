@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Dynamic Risk Assessment for Human-Robot Collaboration Using a Heuristics-based Approach"
-authors: "Georgios Katranis1, Frederik Plahl1, Joachim Grimstadt, Ilshat Mamaev, Silvia Vock, Andrey Morozov"
+authors: "Georgios Katranis, Frederik Plahl, Joachim Grimstadt, Ilshat Mamaev, Silvia Vock, Andrey Morozov"
 date: "2025-01-21"
 description: "Human-robot collaboration (HRC) introduces significant safety challenges, particularly in protecting
 human operators working alongside collaborative robots (cobots). While current ISO standards emphasize risk assessment 
