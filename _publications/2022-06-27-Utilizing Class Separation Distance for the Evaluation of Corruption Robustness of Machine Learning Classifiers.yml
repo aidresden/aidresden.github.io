@@ -4,9 +4,9 @@ title: "Utilizing Class Separation Distance for the Evaluation of Corruption Rob
 authors: "Georg Siedel, Silvia Vock, Andrey Morozov, Stefan Voß"
 date: "2022-06-27"
 description: "Robustness is a fundamental pillar of Machine Learning (ML) classifiers, substantially determining their reliability. 
-Methods for assessing classifier robustness are therefore essential. In this work, we address the challenge of evaluating corruption robustness in a way
- that allows comparability and interpretability on a given dataset. We propose a test data augmentation method that uses a robustness distance  derived 
- from the datasets minimal class separation distance."
+Methods for assessing classifier robustness are therefore essential. In this work, we address the challenge of evaluating corruption robustness in a way 
+that allows comparability and interpretability on a given dataset. We propose a test data augmentation method that uses a robustness distance  derived 
+from the datasets minimal class separation distance."
 link: "https://arxiv.org/abs/2206.13405"
 
 ---

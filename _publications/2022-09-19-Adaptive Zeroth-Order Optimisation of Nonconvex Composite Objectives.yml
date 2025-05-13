@@ -3,7 +3,7 @@ layout: publication
 title: "Adaptive Zeroth-Order Optimisation of Nonconvex Composite Objectives"
 authors: "Weijia Shao, Sahin Albayrak"
 date: "2022-09-19"
-description: "n this paper, we propose and analyse algorithms for zeroth-order optimisation of non-convex composite objectives, focusing on reducing the 
+description: "In this paper, we propose and analyse algorithms for zeroth-order optimisation of non-convex composite objectives, focusing on reducing the 
 complexity dependence on dimensionality. This is achieved by exploiting the low dimensional structure of the decision set using the stochastic mirror 
 descent method with an entropy alike function, which performs gradient descent in the space equipped with the maximum norm"
 link: "https://dl.acm.org/doi/10.1007/978-3-031-25599-1_42"

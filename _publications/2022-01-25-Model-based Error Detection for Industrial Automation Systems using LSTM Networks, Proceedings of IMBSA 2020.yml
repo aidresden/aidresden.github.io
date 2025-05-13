@@ -4,7 +4,7 @@ title: "Model-Based Error Detection for Industrial Automation Systems Using LSTM
 authors: "Sheng Ding, Andrey Morozov, Silvia Vock, Michael Weyrich, Klaus Janschek"
 date: "2020-09-14"
 description: "The increasing complexity of modern automation systems leads to inevitable faults. At the same time,
- structural variability and untrivial interaction of the sophisticated components makes it harder and harder to apply traditional fault detection methods. "
+structural variability and untrivial interaction of the sophisticated components makes it harder and harder to apply traditional fault detection methods. "
 link: "https://dl.acm.org/doi/abs/10.1007/978-3-030-58920-2_14"
 
 ---
