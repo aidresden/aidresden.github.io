@@ -34,7 +34,7 @@
   number_educ: 1
   education1: Dipl. Mechanical Engineering
 
-#- name: Seyedfakhredin Musavishavazi
+# - name: Seyedfakhredin Musavishavazi
 #  photo: MusavishavaziSeyedfakhredin.png
 #  info: PhD Student
 #  email: Musavishavazi.Seyedfakhredin@baua.bund.de
@@ -48,7 +48,7 @@
   number_educ: 1
   education1: MSc Mathematics
 
-#- name: Muhammad Aziz Hassan
+# - name: Muhammad Aziz Hassan
  # photo: HassanMuhammadAziz.png
  # info: Master Student
  # email: Hassan.MuhammadAziz@baua.bund.de
