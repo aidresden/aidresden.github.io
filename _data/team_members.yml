@@ -34,12 +34,12 @@
   number_educ: 1
   education1: Dipl. Mechanical Engineering
 
-- name: Seyedfakhredin Musavishavazi
-  photo: MusavishavaziSeyedfakhredin.png
-  info: PhD Student
-  email: Musavishavazi.Seyedfakhredin@baua.bund.de
-  number_educ: 1
-  education1: MSc Applied Mathematics
+#- name: Seyedfakhredin Musavishavazi
+#  photo: MusavishavaziSeyedfakhredin.png
+#  info: PhD Student
+#  email: Musavishavazi.Seyedfakhredin@baua.bund.de
+#  number_educ: 1
+#  education1: MSc Applied Mathematics
 
 - name: Sven Jacob
   photo: JacobSven.png
