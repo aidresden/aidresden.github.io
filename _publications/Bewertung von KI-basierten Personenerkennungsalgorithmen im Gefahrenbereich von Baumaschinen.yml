@@ -1,4 +1,5 @@
 ---
+
 layout: publication
 title: "Bewertung von KI-basierten Personenerkennungsalgorithmen im Gefahrenbereich von Baumaschinen"
 authors: "Volker Waurich, Johannes Taesch, Georg Siedel, Franziska Wolny"
@@ -6,4 +7,5 @@ date: "2024-09-09"
 journal: "10. Fachtagung Baumaschinentechnik"
 description: "Wie kann KI dazu beitragen kann, die Sicherheit auf Baustellen zu erhöhen? Potenziale und Herausforderungen dieser Technologie."
 link: "https://github.com/aidresden/person_detection_construction_sites"
+
 ---
