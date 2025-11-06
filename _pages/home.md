@@ -19,7 +19,7 @@ permalink: /
 <script>
     // JavaScript to load text from the content.txt file
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('{{ "/assets/homepage/content.txt" | relative_url }}')
+        fetch('{{ "/assets/homepage/content.md" | relative_url }}')
             .then(response => response.text())
             .then(data => {
                 // Access and update the content of the div with id 'homepage-content'
