@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "Improving and Evaluating the Corruption Robustness of Image Classifiers Using Random p-Norm Noise"
+authors: "Georg Siedel, Weijia Shao, Silvia Vock & Andrey Morozov "
+date: "2026-02-10"
+journal: "Communications in Computer and Information Science ((CCIS, volume 2548)): Revised Selected Papers of VISAPP 2024"
+description: "On using random noise sampled from arbitrary p-norms as a data augmentation strategy for the assumption-free evaluation and the training of robust image classification models."
+link: "https://link.springer.com/chapter/10.1007/978-3-032-07623-6_17"
+
+---

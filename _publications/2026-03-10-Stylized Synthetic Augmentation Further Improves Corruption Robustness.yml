@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "Stylized Synthetic Augmentation Further Improves Corruption Robustness"
+authors: "Georg Siedel, Rojan Regmi, Abhirami Anand, Weijia Shao, Silvia Vock & Andrey Morozov "
+date: "2026-03-10"
+journal: "Proceedings of the 21st International Conference on Computer Vision Theory and Applications (VISAPP 2026) - Volume 2, pages 31-42"
+description: "A data augmentation pipeline consisting of synthetic images, neural style transfer and TrivialAugment is developed that enables state of the art robustness on small-to-medium scale image classification datasets."
+link: "https://www.researchgate.net/publication/398788007_Stylized_synthetic_augmentation_further_improves_Corruption_Robustness"
+
+---
