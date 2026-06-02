@@ -3,6 +3,7 @@ layout: publication
 title: "From Classical to Advanced Risk Methods: Demonstrator for Industrial Cyber-Physical Systems"
 authors: "Andrey Morozov, Tagir Fabarisov, Silvia Vock, Thorben Schey, Artur Karimov, Georg Siedel, Joachim Grimstad, Arne Sonnenburg, Thomas Mossner"
 date: "2025-01-14"
+journal: "35th European Safety and Reliability Conference (ESREL 2025)"
 description: "Modern industrial Cyber-Physical Systems (CPS) exhibit high levels of reconfigurability and heterogeneity, posing
 significant challenges for risk assessment in dynamic environments. Traditional risk assessment methods, originally
 developed for simpler systems"
