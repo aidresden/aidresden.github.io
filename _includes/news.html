@@ -1,5 +1,5 @@
 <div class="well">
-    <h4>Recent Publications</h4>
+    <h3>Recent Publications</h3>
   
     {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
     {% for article in sorted_publications limit: 5 %}
