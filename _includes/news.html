@@ -3,9 +3,12 @@
   
     {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
     {% for article in sorted_publications limit: 5 %}
-      <p>{{ article.date | date: "%B %d, %Y" }}<br>{{ article.title }}<br>{{ article.authors }}</p>
+      <p>
+        <span style="font-size: 0.875em;">{{ article.date | date: "%B %d, %Y" }}</span><br>
+        <span style="font-weight: bold;">{{ article.title }}</span><br>
+        <span style="font-style: italic;">{{ article.authors }}</span>
+      </p>
     {% endfor %}
   
     <h4><a href="{{ site.url }}{{ site.baseurl }}/recent_publications.html">... see all Recent Publications</a></h4>
-  </div>
-  
+</div>
