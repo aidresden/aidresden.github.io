@@ -12,17 +12,17 @@
   number_educ: 1
   education1: PhD experimental physics
 
-- name: Dr. Maryam Alipour
-  photo: AlipourMaryam.png
-  info: Postdoc
-  email: Alipour.Maryam@baua.bund.de
-  number_educ: 1
-  education1: PhD Applied mathematics 
+#- name: Dr. Maryam Alipour
+ # photo: AlipourMaryam.png
+ # info: Postdoc
+ # email: Alipour.Maryam@baua.bund.de
+ # number_educ: 1
+ # education1: PhD Applied mathematics 
 
 - name: Dr. Weijia Shao
   photo: ShaoWeijia.png
   info: Postdoc
-  email: ShaoWeijia@baua.bund.de
+  email: Shao.Weijia@baua.bund.de
   number_educ: 1
   education1: PhD Computer Science
 
@@ -54,3 +54,26 @@
  # email: Hassan.MuhammadAziz@baua.bund.de
  # number_educ: 1
  # education1: Bachelors of Science in Electrical Engineering
+
+ - name: Nico Steckhan
+  photo: NS.png
+  info: Postdoc
+  email: Steckhan.Nico@baua.bund.de
+  number_educ: 1
+  education1: PhD Medical Sciences
+
+  - name: Atmika Bhardwaj
+  photo: AB.png
+  info: Postdoc
+  email: Bhardwaj.Atmika@baua.bund.de
+  number_educ: 1
+  education1: PhD Physics
+
+
+  - name: Krutarth Prajapati
+  photo: KP.png
+  info: Master's Student
+  email: Prajapati.Krutarth@baua.bund.de
+  number_educ: 1
+  education1: BTech Mechanical
+  
