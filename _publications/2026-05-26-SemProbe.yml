@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "Semantic Robustness Probing via Inpainting: An Interactive Tool for Data Augmentation for Safety-Critical Object Detection"
+authors: "Nico Steckhan, Krutarth Prajapati, Weijia Shao, Jonas Heinle, and Silvia Vock"
+date: "2026-05-26"
+journal: "Machine Learning and Knowledge Discovery in Databases: Demo Track"
+description: "We present SemProbe, a tool for semantic robustness probing: users upload deployment images, create masks manually or automatically, select operational design domain-derived factors (or custom prompts), and run diffusion-based controlled inpainting"
+link: "https://doi.org/10.48550/arXiv.2605.27155"
+
+---
