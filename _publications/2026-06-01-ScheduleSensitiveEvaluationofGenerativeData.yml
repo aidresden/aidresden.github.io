@@ -6,5 +6,4 @@ date: "2026-06-01"
 journal: "arXiv"
 description: "On a paired dataset of real images and their synthetic counterparts, we train YOLOv8n hand detectors under six training-and-scheduling regimes, evaluate every detector on a real test set and on a real-gloves-only test split, and report the mean average precision at two overlap thresholds along with paired statistical tests"
 link: "https://doi.org/10.48550/arXiv.2606.01896"
-
 ---
