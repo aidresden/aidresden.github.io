@@ -26,6 +26,19 @@
   number_educ: 1
   education1: PhD Computer Science
 
+- name: Nico Steckhan
+  photo: NS.png
+  info: Postdoc
+  email: Steckhan.Nico@baua.bund.de
+  number_educ: 1
+  education1: PhD Medical Sciences
+
+- name: Atmika Bhardwaj
+  photo: AB.png
+  info: Postdoc
+  email: Bhardwaj.Atmika@baua.bund.de
+  number_educ: 1
+  education1: PhD Physics
 
 - name: Georg Siedel
   photo: SiedelGeorg.png
@@ -54,21 +67,6 @@
  # email: Hassan.MuhammadAziz@baua.bund.de
  # number_educ: 1
  # education1: Bachelors of Science in Electrical Engineering
-
-- name: Nico Steckhan
-  photo: NS.png
-  info: Postdoc
-  email: Steckhan.Nico@baua.bund.de
-  number_educ: 1
-  education1: PhD Medical Sciences
-
-- name: Atmika Bhardwaj
-  photo: AB.png
-  info: Postdoc
-  email: Bhardwaj.Atmika@baua.bund.de
-  number_educ: 1
-  education1: PhD Physics
-
 
 - name: Krutarth Prajapati
   photo: KP.png
