@@ -9,9 +9,9 @@ title: "Condition monitoring for industrial milling machines"
 
 <h3>Links</h3>
 <ul>
-    <li><a href="GIT_LINK_HERE" target="_blank">Dataset Repository</a></li>
-    <li><a href="PUBLICATION_LINK_HERE" target="_blank">Publication</a></li>
-    <li><a href="PROJECT_LINK_HERE" target="_blank">Project Details</a></li>
+    <li><a href="https://zenodo.org/records/17647077" target="_blank">Dataset Repository</a></li>
+    <li><a href="https://www.proximityrobotics.com/en/products/datasets-open-research-assets/" target="_blank">Publication</a></li>
+    <li><a href="https://www.proximityrobotics.com/en/products/datasets-open-research-assets/" target="_blank">Project Details</a></li>
 </ul>
 <style>
 body, p, h2 {
