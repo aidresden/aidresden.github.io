@@ -12,8 +12,7 @@ requirements, and optimal parameter settings for these safety systems.</p>
 <h3>Links</h3>
 <ul>
     <li><a href="https://github.com/aidresden/person_detection_construction_sites" target="_blank">Dataset Repository</a></li>
-    <li><a href="https://github.com/aidresden/person_detection_construction_sites" target="_blank">Publication</a></li>
-    <li><a href="https://github.com/aidresden/person_detection_construction_sites" target="_blank">Project Details</a></li>
+    <li><a href="https://tud.qucosa.de/landing-page/https%3A%2F%2Ftud.qucosa.de%2Fapi%2Fqucosa%253A100094%2Fmets%2F/" target="_blank">Publication</a></li>
 </ul>
 <style>
 body, p, h2 {
