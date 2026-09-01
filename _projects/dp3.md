@@ -9,9 +9,9 @@ title: "Condition monitoring for industrial milling machines"
 
 <h3>Links</h3>
 <ul>
-    <li><a href="https://zenodo.org/records/17647077" target="_blank">Dataset Repository</a></li>
-    <li><a href="https://www.proximityrobotics.com/en/products/datasets-open-research-assets/" target="_blank">Publication</a></li>
-    <li><a href="https://www.proximityrobotics.com/en/products/datasets-open-research-assets/" target="_blank">Project Details</a></li>
+    <li><a href="https://cmsweb.com.sg/rps2prod/esrel2026/epro/html/esrel26-p26095.html" target="_blank">Dataset Repository</a></li>
+    <li><a href="https://cmsweb.com.sg/rps2prod/esrel2026/epro/html/esrel26-p26095.html" target="_blank">Publication</a></li>
+    <li><a href="https://cmsweb.com.sg/rps2prod/esrel2026/epro/html/esrel26-p26095.html" target="_blank">Project Details</a></li>
 </ul>
 <style>
 body, p, h2 {
